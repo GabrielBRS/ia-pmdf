@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ORTZION - PMDF IA</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="pmdf-card">
+        <h1>PMDF - SEGURANÇA PÚBLICA</h1>
+        <p>UNIT OF ARTIFICIAL INTELLIGENCE</p>
+        <div class="divider"></div>
+        <h2>ORTZION</h2>
+        <p>Monitoramento Rodoviário e Inteligência Forense</p>
+
+        <div class="upload-box">
+            <label>Upload de Evidência (Imagens/Vídeos de Rodovia):</label>
+            <br><br>
+            <input type="file" id="fileInput" accept="image/*,video/*">
+            <br><br>
+            <button id="processBtn">EXECUTAR INFERÊNCIA</button>
+        </div>
+
+        <div id="output"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

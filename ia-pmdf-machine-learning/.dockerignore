@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+.git
+.gitignore
+properties/environments/env-prod.env
+.env.*
+.ipynb_checkpoints/
+.cache/
